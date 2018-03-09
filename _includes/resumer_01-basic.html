@@ -15,14 +15,15 @@
 
                 <dt class="text-upper">e-mail</dt>
                 <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+               
                 {% if site.english %}
                 <dt class="text-upper">英语</dt>
-                <dd>CET-6</dd>
+                <dd>{{ site.english }}</dd>
                 {% endif %}
                 
                 {% if site.Japanese %}
                 <dt class="text-upper">日语</dt>
-                <dd>一级</dd>
+                <dd>{{ site.Japanese }}</dd>
                 {% endif %}
             </dl>
         </div><!-- .col-sm-6 -->
