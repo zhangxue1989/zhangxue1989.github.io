@@ -1,11 +1,11 @@
 # Site settings
-name: 董小姐
-location: 大连
-company: IBM
-position: Java开发工程师
-github: https://github.com/
+name: 张雪
+location: 北京
+company: 有利网
+position: 高级Java开发工程师
+github: https://github.com/zhangxue1989
 facebook: https://www.facebook.com/
-phone: 1580424XXXX
+phone: 150305xxxxx
 email: xxxx@xxx.com
 
 baseurl: ""
