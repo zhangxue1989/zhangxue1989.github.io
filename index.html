@@ -10,7 +10,9 @@ layout: default
                     <nav id="ace-nav" class="ace-nav">
                         <ul class="clear-list">
                             <li>
-                              <a href="{{ site.home.url }}" data-tooltip="Home"><img class="avatar avatar-42" src="{{ '/styles/img/show-star.png' | prepend: site.baseurl }}" alt=""></a>
+                              <a href="{{ site.home.url }}" data-tooltip="Home">
+                              	<img class="avatar avatar-42" src="{{ '/styles/img/show-star.png' | prepend: site.baseurl }}" alt="">
+                              </a>
                             </li>
                             <li>
                               <a href="#basic_info" data-tooltip="基本信息"><span class="ace-icon ace-icon-home"></span></a>
@@ -26,9 +28,9 @@ layout: default
                             <li>
                               <a href="#experience" data-tooltip="工作经历"><span class="ace-icon ace-icon-references"></span></a>
                             </li>
-                            <li>
+                            <!-- <li>
                               <a href="#certification" data-tooltip="获得证书"><span class="ace-icon ace-icon-blog"></span></a>
-                            </li>
+                            </li> -->
                             <li>
                               <a href="#personal_project" data-tooltip="个人作品"><span class="ace-icon ace-icon-snowflake-o"></span></a>
                             </li>
@@ -54,17 +56,17 @@ layout: default
                     <!-- START: PAGE CONTENT -->
                     <div class="padd-box clear-mrg">
 
-                    {% include resumer_01-basic.html %}
+                    {% include resumer_01-basic.html %}<!-- 基本信息 -->
 
-                    {% include resumer_02-profetional.html %}
+                    {% include resumer_02-profetional.html %}<!-- 技能 -->
 
-                    {% include resumer_03-education.html %}
+                    {% include resumer_03-education.html %}<!-- 教育经历 -->
 
-                    {% include resumer_04-experience.html %}
+                    {% include resumer_04-experience.html %}<!-- 工作经历 -->
 
-                    {% include resumer_05-certification.html %}
+                    <!-- {% include resumer_05-certification.html %} --><!-- 证书 -->
 
-                    {% include resumer_06-personal_project.html %}
+                    {% include resumer_06-personal_project.html %}<!-- 个人作品 -->
                         
                     </div><!-- .padd-box -->
                 <!-- END: PAGE CONTENT -->

@@ -6,12 +6,14 @@ location: 北京
 company: 有利网
 position: 高级Java开发工程师
 github: https://github.com/zhangxue1989
+gitee: https://gitee.com/zx19890628
 facebook: https://www.facebook.com/
 phone: 150305xxxxx
 education: 本科
 email: xxxx@xxx.com
 #english: CET-6
 #Japanese: 一级
+# 技能，满级为10，最低为1
 skills: [
   {name : "aaa", level: 1 },
   {name : "bbb", level: 2 },
