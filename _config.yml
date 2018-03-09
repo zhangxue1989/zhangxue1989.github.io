@@ -25,7 +25,7 @@ skills: [
 
 baseurl: ""
 
-home.url: http://zx19890628.gitee.io
+homeUrl: http://zx19890628.gitee.io
 
 permalink: /:year/:month/:day/:title/
 
