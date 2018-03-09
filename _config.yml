@@ -9,8 +9,8 @@ github: https://github.com/zhangxue1989
 facebook: https://www.facebook.com/
 phone: 150305xxxxx
 email: xxxx@xxx.com
-english: CET-6
-Japanese: 一级
+#english: CET-6
+#Japanese: 一级
 baseurl: ""
 
 permalink: /:year/:month/:day/:title/
