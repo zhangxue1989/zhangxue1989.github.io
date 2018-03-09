@@ -12,6 +12,15 @@ education: 本科
 email: xxxx@xxx.com
 #english: CET-6
 #Japanese: 一级
+skills: [
+  {name : "aaa", level: 1 },
+  {name : "bbb", level: 2 },
+  {name : "ccc", level: 3 },
+  {name : "ddd", level: 4 }
+]
+
+
+
 baseurl: ""
 
 home.url : http://zx19890628.gitee.io/

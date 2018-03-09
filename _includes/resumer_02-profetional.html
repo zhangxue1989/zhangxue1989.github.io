@@ -5,24 +5,28 @@
             <h2 class="title-thin text-muted">职业技能</h2>
 
             <div class="col-sm-6 clear-mrg">
+				{% if site.skills %}
+                    {% for skill in site.skills %}
+                        <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+		                    <strong class="progress-title">{{ skill.name }}</strong>
+		                    <span class="progress-bar">
+		                    	{% for i in (1..10) %}
+		                    		{% if i <= skill.level %}
+		                        		<span class="bullet fill"></span>
+		                        	{% else %}
+				                        <span class="bullet"></span>
+		                        	{% endif %}
+		                        {% endfor %}
+		                    </span>
+		                </div>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+	
+	
+                
 
-                <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
-                    <strong class="progress-title">Java</strong>
-                    <span class="progress-bar">
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                        <span class="bullet fill"></span>
-                    </span>
-                </div>
-
-                <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                <!-- <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
                     <strong class="progress-title">HTML</strong>
                     <span class="progress-bar">
                         <span class="bullet fill"></span>
@@ -136,7 +140,7 @@
                         <span class="bullet fill"></span>
                         <span class="bullet fill"></span>
                     </span>
-                </div>
+                </div> -->
 
             </div>
 
