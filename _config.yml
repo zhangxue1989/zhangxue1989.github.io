@@ -13,6 +13,8 @@ email: xxxx@xxx.com
 #Japanese: 一级
 baseurl: ""
 
+home.url : http://zx19890628.gitee.io/
+
 permalink: /:year/:month/:day/:title/
 
 exclude: ['README.md']
