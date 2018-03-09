@@ -1,5 +1,7 @@
 # Site settings
 name: 张雪
+sex:男
+birth:1989-06-28
 location: 北京
 company: 有利网
 position: 高级Java开发工程师
@@ -7,7 +9,8 @@ github: https://github.com/zhangxue1989
 facebook: https://www.facebook.com/
 phone: 150305xxxxx
 email: xxxx@xxx.com
-
+english:CET-6
+Japanese:一级
 baseurl: ""
 
 permalink: /:year/:month/:day/:title/
