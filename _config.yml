@@ -10,15 +10,29 @@ gitee: https://gitee.com/zx19890628
 facebook: https://www.facebook.com/
 phone: 150305xxxxx
 education: 本科
-email: xxxx@xxx.com
+email: 15030518550@163.com
 #english: CET-6
 #Japanese: 一级
 # 技能，满级为10，最低为1
 skills: [
-  {name : "aaa", level: 1 },
-  {name : "bbb", level: 2 },
-  {name : "ccc", level: 3 },
-  {name : "ddd", level: 4 }
+  {name : "Java", level: 8 },
+  {name : "Python", level: 7 },
+  {name : "Hibernate", level: 7 },
+  {name : "MyBatis", level: 7 },
+  {name : "Spring MVC", level: 7 },
+  {name : "Spring Boot", level: 7 },
+  {name : "Spring Cloud", level: 6 },
+  {name : "MyBatis", level: 7 },
+  {name : "MySQL", level: 8 },
+  {name : "Oracle 11g", level: 6 },
+  {name : "Tomcat", level: 8 },
+  {name : "Nginx", level: 7 },
+  {name : "Redis", level: 8 },
+  {name : "Hadoop", level: 6 },
+  {name : "hbase", level: 6 },
+  {name : "WebGIS", level: 6 },
+  {name : "HighCharts", level: 6 },
+  {name : "Bootstarp3", level: 6 }
 ]
 
 
