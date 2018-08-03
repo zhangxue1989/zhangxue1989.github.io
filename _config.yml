@@ -15,7 +15,7 @@ email: 15030518550@163.com
 #Japanese: 一级
 # 技能，满级为10，最低为1
 skills: [
-  {name : "Java", level: 8 },
+  {name : "Java", level: 9 },
   {name : "Python", level: 7 },
   {name : "Hibernate", level: 7 },
   {name : "MyBatis", level: 7 },
